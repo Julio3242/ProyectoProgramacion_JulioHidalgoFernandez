@@ -7,5 +7,9 @@ public class MainMusico {
 		Instrumento piano = new Instrumento("Piano", 32000.00);
 		musico1.agregarInstrumento(guitarra);
 		musico1.agregarInstrumento(piano);
+		System.out.println("Instrumentos de " + musico1.getNombre() + ":");
+		for (Instrumento instrumento : musico1.getInstrumentos()) {
+			System.out.println(instrumento.tipo);
+		}
 	}
 }
