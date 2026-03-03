@@ -1,5 +1,5 @@
 package Agregacion;
-
+//Completo
 public class Instrumento {
 	String tipo;
 	double precio;
